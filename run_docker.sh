@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=boston .
+docker build --tag=subrockmann/udacity_microservice:v1 .
 
 # Step 2: 
 # List docker images
@@ -12,4 +12,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -p 8000:80 boston
+docker run -p 8000:80 subrockmann/udacity_microservice:v1
