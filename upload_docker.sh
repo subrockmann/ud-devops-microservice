@@ -15,5 +15,6 @@ docker tag subrockmann/udacity_microservice:v1 $DOCKER_ID/udacity_microservice:v
 
 # Step 3:
 # Push image to a docker repository
+docker login
 docker push $DOCKER_ID/udacity_microservice:v1 
 
