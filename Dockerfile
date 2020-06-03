@@ -6,7 +6,7 @@ WORKDIR /app
 
 ## Step 1b:
 # Add requirements.txt before rest of repo for caching
-ADD requirements.txt /app/
+COPY requirements.txt /app/
 
 ## Step 2:
 # Copy source code to working directory
