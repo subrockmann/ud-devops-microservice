@@ -17,6 +17,6 @@ sudo kubectl get pods
 # Forward the container port to a host
 echo "Please wait for 10 seconds for pod to come up"
 sleep 10
-sudo kubectl port-forward pod/my-app 8080:80
+sudo kubectl port-forward pod/my-app 8000:80
 sudo kubectl logs --selector app=my-app
 
