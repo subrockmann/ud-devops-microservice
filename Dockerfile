@@ -4,6 +4,10 @@ FROM python:3.7.3-stretch
 # Create a working directory
 WORKDIR /app
 
+## Step 1b:
+# Add requirements.txt before rest of repo for caching
+ADD requirements.txt /app/
+
 ## Step 2:
 # Copy source code to working directory
 COPY . app.py /app/
