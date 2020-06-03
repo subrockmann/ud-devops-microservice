@@ -1,5 +1,4 @@
-## [![<ORG_NAME>](https://circleci.com/<VCS>/<ORG_NAME>/<PROJECT_NAME>.svg?style=svg)](<LINK>)
-[![<subrockmann>](https://circleci.com/gh/subrockmann/ud-devops-microservice.svg?style=svg)](https://app.circleci.com/pipelines/github/subrockmann/ud-devops-microservice)
+[![subrockmann](https://circleci.com/gh/subrockmann/ud-devops-microservice.svg?style=svg)](https://app.circleci.com/pipelines/github/subrockmann/ud-devops-microservice)
 <include a CircleCI status badge, here>
 
 ## Project Overview
