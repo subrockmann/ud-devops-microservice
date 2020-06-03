@@ -1,5 +1,4 @@
 [![subrockmann](https://circleci.com/gh/subrockmann/ud-devops-microservice.svg?style=svg)](https://app.circleci.com/pipelines/github/subrockmann/ud-devops-microservice)
-<include a CircleCI status badge, here>
 
 ## Project Overview
 
